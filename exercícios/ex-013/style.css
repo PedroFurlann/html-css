@@ -1,0 +1,17 @@
+
+
+body {
+    background-color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+h1 {
+    color: brown;
+}
+h2 {
+    color: darkred;
+    background-color: cornflowerblue;    
+}
+p {
+    text-align: justify;
+}

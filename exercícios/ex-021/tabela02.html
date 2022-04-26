@@ -16,6 +16,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
 
         }
 
@@ -33,11 +34,25 @@
 
         }
 
+
+
         thead, tfoot {
             background-color: gray;
             color: white;
 
         }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+
+        }
+
     </style>
 </head>
 <body>
@@ -84,6 +99,7 @@
 
     </tfoot>        
     </table>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, quis animi! Delectus possimus commodi, assumenda nemo inventore suscipit id beatae voluptate itaque soluta. Porro repellendus corporis, similique libero ab aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel omnis alias temporibus ratione blanditiis velit rerum, veritatis quis ducimus impedit ut dignissimos sed iusto similique delectus sit exercitationem totam dolor! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, similique vero eum voluptatum facilis in quo recusandae saepe aliquam nesciunt aut sunt. Provident ipsum debitis sapiente quas possimus ab nihil? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis natus obcaecati, dicta in eum fugiat debitis labore sapiente, aperiam rerum magnam dolorem assumenda, minima numquam sequi nostrum totam. Voluptatum, officia?</p>
     
 </body>
 </html>
